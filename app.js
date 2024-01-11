@@ -50,9 +50,8 @@ function end_flash(){
     },100);
 }
 
-boxes.forEach(function(boxy) {
 
-    
+boxes.forEach(function(boxy) {
     boxy.addEventListener("mousedown",function() {
         click_down(boxy);
     });
