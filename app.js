@@ -1,4 +1,3 @@
-// Get all elements with the class 'game-button'
 const boxes = document.querySelectorAll('#game-box div');
 const para = document.querySelector('#score');
 
